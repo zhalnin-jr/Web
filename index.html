@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кто я такой?</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <script>
+        let UserName = prompt("Как вас зовут?", "Ваше имя")
+        alert(UserName + ", Добро пожаловать");
+    </script>
+     <script>
+        function checkAge() {
+            var age = prompt("Введите ваш возраст:");
+            
+            switch(age) {
+                case '0':
+                    alert("Вы еще не родились!!!!!!!!!")
+                    break;
+                case '1':
+                    alert("Вы только что родились?!")
+                    break;
+                case '2':
+                    alert("Вы нас обманываете!")
+                    break;
+                case '3':
+                case '4':
+                case '5':
+                    alert("Вы детсадовец!")
+                    break;
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                case '10':
+                case '11':
+                case '12':
+                case '13':
+                case '14':
+                case '15':
+                case '16':
+                case '17':
+                    alert("Вы школьник!")
+                    break;
+                default:
+                    if (age < 0) {
+                        alert("Некорректный возраст!")
+                    } else {
+                        alert("Вы взрослый!")
+                    }
+                    break;
+            }
+        }
+    </script>
+    <section>
+        <div>
+        <h1>Ну расскажу немного о себе</h1>
+        </div>
+    <div>
+        <p class = "p2">Я студент 2 курса Рэу и обучаюсь на направлении математическое обеспечение и администрирование информационных систем</p>
+    </div>
+    <div>
+      <img src="data:image/jpeg;base64,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" alt="Примерно так выгляжу я" width="150" height="100">
+    </div>
+<div><p class ="p1" id = "el1">Котэ</p></div>
+ <h2>Навыки которые я приобрел на данном курсе от GB:</h2>
+<div>
+    <ul class="text">
+  <li>Основы языка С#</li>
+  <li>Работа с Git</li>
+  <li>Работы с удаленным репозиторием GitHub</li>
+  <li>Python</li>
+  <li>Collab</li>
+  <li>Java</li>
+    </ul>
+</div>
+ 
+
+ <a href="https://m.vk.com/">я тут есть, но точную ссылку я не дам)</a>
+<button class="btn1" id = "btn1">Сделать так, чтобы при нажатии на кнопку менялся цвет и текст элемента p</p></button>
+</section>
+<section class="section1">
+    <div>
+        <h1 class = "txt">Введите ваше имя:</h1>
+        <input id="nameInput" type="text">
+        <button onclick="showName()">Показать имя</button>
+        <div id="nameOutput"></div>
+    </div>
+    <div>
+        <button class = "btn2" onclick="checkAge()">Проверить возраст</button>
+    </div>
+</section>
+<script src = "./assets/script.js"></script>
+</body>
+</html>

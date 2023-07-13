@@ -1,0 +1,60 @@
+section{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.section1{
+  display: inline;
+  align-items: center;
+}
+.text{
+    color: darkcyan;
+}
+.p1{
+color: rgb(255, 0, 0);
+font-size: 20px;
+}
+h1{
+font-size: 25px;
+color: blue;
+    
+}
+@keyframes color-animation {
+    0% { color: red; }
+    25% { color: rgba(255, 136, 0, 0.986); }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: rgb(0, 255, 242);}
+
+  }
+.p2{
+animation-name: color-animation;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+  }
+  .btn1{
+    padding-top: 20px;
+margin-top: 20px;
+width: 250px;
+height: auto;
+background-color: blanchedalmond;
+rotate: -0.1rad;
+
+}
+.chip{
+  color: rgb(109, 159, 172);
+font-size: 25px;
+}
+.txt{
+  font-size: 20px;
+color: rgb(8, 8, 8);
+}
+.btn2 {
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+  background-color: rgb(109, 68, 7);
+}
+.hover {
+  color: blue;
+}
